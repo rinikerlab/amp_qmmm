@@ -57,7 +57,7 @@ class SingleSystemOrcaXtbDataset(Dataset):
                 f"{data_path}/{system_name}/orca_pc_coordinates.npy",
                 allow_pickle=True,
             )
-            assert len(self._mm_gradients) == last_idx
+            assert len(self._mm_coordinates) == last_idx
             self._qm_charges = np.load(
                 f"{data_path}/{system_name}/orca_species.npy",
                 allow_pickle=True,
