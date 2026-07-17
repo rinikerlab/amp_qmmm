@@ -4,8 +4,21 @@ PyTorch implementation for ML/MM with anisotropic message passing (AMP).
 
 # Publications
 
-- Full paper on [JACS](https://pubs.acs.org/doi/10.1021/jacs.4c17015) (Open Access)
-- Preprint on [arXiv](https://arxiv.org/abs/2411.19728)
+```bibtex
+@article{AMP2,
+  title = {Neural Network Potential with Multiresolution Approach Enables Accurate Prediction of Reaction Free Energies in Solution},
+  volume = {147},
+  ISSN = {1520-5126},
+  url = {http://dx.doi.org/10.1021/jacs.4c17015},
+  DOI = {10.1021/jacs.4c17015},
+  number = {8},
+  journal = {J. Am. Chem. Soc.},
+  publisher = {American Chemical Society (ACS)},
+  author = {Pultar,  Felix and Th\"{u}rlemann,  Moritz and Gordiy,  Igor and Doloszeski,  Eva and Riniker,  Sereina},
+  year = {2025},
+  pages = {6835--6856}
+}
+```
 
 # Abstract
 
